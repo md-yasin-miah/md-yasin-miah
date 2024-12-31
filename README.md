@@ -111,10 +111,17 @@ Check out some of my favorite projects:
 
 ## 🌟 Fun Animation
 
-![Coder GIF](https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif)
-<script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
-<dotlottie-player src="https://lottie.host/ce029270-1c53-4f10-adb6-b4f3486dfd00/vqi6UXceRl.lottie" background="transparent" speed="1" style="width: 300px; height: 300px" loop autoplay></dotlottie-player>
----
+<div style="display: grid; grid-template-columns: repeat(3, 1fr);">
+  <div>
+    <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWE4cDhuMjg1dTRyd3MxNTgwN2VsOXB4M3k3bGYwNW15amVtajQ0dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SWoSkN6DxTszqIKEqv/giphy.gif" alt="Code GIF" style="width: 100%; height: 100%; object-fit: cover;"/>
+  </div>
+  <div>
+    <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYm5tamdneTlhYm1zMThnemR3ajF3ejU0eTRkaDZkMGpwam41Z2pwdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif" alt="Coder GIF" style="width: 100%; height: 100%; object-fit: cover;"/>
+  </div>
+  <div>
+    <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2lxdmVrMXJucHJvNTN5ZTQ1d2t0YmR2aXh3b2ExazBwOTZtMWtrZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/25Itcrcuwkyq3ohubJ/giphy.gif" alt="Coder GIF" style="width: 100%; height: 100%; object-fit: cover;"/>
+  </div>
+</div>
 
 ## ✨ Connect With Me
 
