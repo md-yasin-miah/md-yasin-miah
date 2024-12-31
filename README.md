@@ -82,46 +82,75 @@ Check out some of my favorite projects:
 
 ## 📊 GitHub and WakaTime Stats
 
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
-   <img 
-      src="https://github-readme-stats-sigma-five.vercel.app/api?username=md-yasin-miah&show_icons=true&theme=radical&hide_border=true&include_all_commits=true" 
-      alt="GitHub Stats" 
-      width="100%"
-   />
-   <img 
-      src="https://streak-stats.demolab.com?user=md-yasin-miah&theme=radical&hide_border=true" 
-      alt="GitHub Streak" 
-      width="100%"
-   />
-  <img
-    src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=md-yasin-miah&layout=compact&theme=radical&hide_border=true" 
-    alt="Top Languages" 
-    width="100%"
-  />
-  <img 
-    src="https://github-readme-stats.vercel.app/api/wakatime?username=mdyasinmiah&theme=radical&hide_border=true" 
-    alt="WakaTime Stats" 
-    width="100%"
-  />
-</div>
-
+<table class='class'>
+  <tr>
+    <td>
+      <img 
+        src="https://github-readme-stats-sigma-five.vercel.app/api?username=md-yasin-miah&show_icons=true&theme=radical&hide_border=true&include_all_commits=true" 
+        alt="GitHub Stats" 
+        width="100%"
+      />
+    </td>
+    <td>
+      <img 
+        src="https://streak-stats.demolab.com?user=md-yasin-miah&theme=radical&hide_border=true" 
+        alt="GitHub Streak" 
+        width="100%"
+      />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img
+        src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=md-yasin-miah&layout=compact&theme=radical&hide_border=true" 
+        alt="Top Languages" 
+        width="100%"
+      />
+    </td>
+    <td>
+      <img 
+        src="https://github-readme-stats.vercel.app/api/wakatime?username=mdyasinmiah&theme=radical&hide_border=true" 
+        alt="WakaTime Stats" 
+        width="100%"
+      />
+    </td>
+  </tr>
+</table>
 
 
 ---
 
 ## 🌟 Fun Animation
 
-<div style="display: grid; grid-template-columns: repeat(3, 1fr);">
-  <div>
-    <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWE4cDhuMjg1dTRyd3MxNTgwN2VsOXB4M3k3bGYwNW15amVtajQ0dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SWoSkN6DxTszqIKEqv/giphy.gif" alt="Code GIF" style="width: 100%; height: 100%; object-fit: cover;"/>
-  </div>
-  <div>
-    <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYm5tamdneTlhYm1zMThnemR3ajF3ejU0eTRkaDZkMGpwam41Z2pwdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif" alt="Coder GIF" style="width: 100%; height: 100%; object-fit: cover;"/>
-  </div>
-  <div>
-    <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2lxdmVrMXJucHJvNTN5ZTQ1d2t0YmR2aXh3b2ExazBwOTZtMWtrZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/25Itcrcuwkyq3ohubJ/giphy.gif" alt="Coder GIF" style="width: 100%; height: 100%; object-fit: cover;"/>
-  </div>
-</div>
+<table>
+  <tr>
+    <td>
+      <div style="width: 100%; height: 100%;">
+        <img 
+          src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWE4cDhuMjg1dTRyd3MxNTgwN2VsOXB4M3k3bGYwNW15amVtajQ0dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SWoSkN6DxTszqIKEqv/giphy.gif" 
+          alt="Code GIF" 
+          style="width: 100%; height: 100%; object-fit: cover;"
+        />
+      </div>
+    </td>
+    <td>
+      <div style="width: 100%; height: 100%;">
+      <img 
+        src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYm5tamdneTlhYm1zMThnemR3ajF3ejU0eTRkaDZkMGpwam41Z2pwdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif" 
+        alt="Coder GIF" 
+        style="width: 100%; height: 100%; object-fit: cover;"
+      />
+      </div>
+    </td>
+    <td>
+        <img 
+            src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2lxdmVrMXJucHJvNTN5ZTQ1d2t0YmR2aXh3b2ExazBwOTZtMWtrZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/25Itcrcuwkyq3ohubJ/giphy.gif" 
+            alt="Coder GIF" 
+            style="width: 100%; height: 100%; object-fit: cover;"
+        />
+    </td>
+  </tr>
+</table>
 
 ## ✨ Connect With Me
 
