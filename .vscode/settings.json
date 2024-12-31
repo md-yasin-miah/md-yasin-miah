@@ -1,0 +1,7 @@
+{
+    "markdown.preview.breaks": true,
+    "markdown.preview.typographer": true,
+    "markdown.preview.fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif",
+    "markdown.preview.lineHeight": 1.6,
+    "markdown.preview.fontSize": 14
+} 
