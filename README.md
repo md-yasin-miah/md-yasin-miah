@@ -3,7 +3,7 @@
 <div align="center">
   <img 
     width="100%" 
-    src="https://capsule-render.vercel.app/api?type=venom&color=0:E855DE,100:5400ee&height=180&section=header&text=Md%20Yasin%20Miah&fontSize=48&fontColor=fff&animation=fadeIn&fontAlignY=40&desc=Front-End%20Developer%20|%20Javascript%20|%20React.js&descAlignY=64&descSize=20"
+    src="https://capsule-render.vercel.app/api?type=venom&color=0:E855DE,100:5400ee&height=180&section=header&text=Md%20Yasin%20Miah&fontSize=48&fontColor=fff&animation=fadeIn&fontAlignY=40&desc=Javascript%20|%20Tysescript%20|%20React.js%20|%20Next.js%20|%20Node.js%20|%20API&descAlignY=64&descSize=20"
   />
 </div>
 
@@ -70,14 +70,15 @@ Hi there! I'm **Md Yasin Miah**, a passionate **Frontend Developer** with a knac
 
 ## 🏗️ My Projects
 
-Check out some of my favorite projects:
+Check out some of my favorite projects developed for different companies:
 
-| **Project Name**        | **Description**                                                                                   | **Live Demo**              | 
+| **Project Name**        | **Description**                                                                                   | **Live Demo**  | 
 |-------------------------|--------------------------------------------------------------------------------------------------|-----------------------------|
-| **Interactive Website** | A beautifully animated, responsive web app built using React and GSAP.                           | [Demo](#)                   |
-| **E-Commerce App**      | Fully functional e-commerce platform built with Next.js and Tailwind CSS.                        | [Demo](#)                   |
-| **Weather App**         | A live weather app featuring real-time API integration and sleek UI.                             | [Demo](#)                   |
-
+| **B2B MultiVendor AgroTech Software** | Transaction Management, Inventory Management, Order Management, Payment Gateway Integration, and more. | [Demo](https://sclient.fashol.com/login?username=admin&password=password)|
+| **Company Portfolio** | Beautiful, responsive, and dynamic portfolio built with React.js, Tailwind CSS, and pocketbase. | [Demo](https://fashol.com/) |
+| **HRMS Portal Portfolio** | Fully functional dynamic HRMS portal portfolio built with Next.js and Tailwind CSS. | [Demo](https://growth.techforing.com/) |
+| **Company Portfolio** | Fully functional, responsive dynamic portfolio built with Next.js, Tailwind CSS, Redux, and REST API. | [Demo](https://main.techforing.com/) |
+| **G3Enterprises** | Functional enterprise website built with React.js, Vanilla CSS, Adobe experience manager and more. | [Demo](https://www.g3enterprises.com/) |
 
 ## 📊 GitHub and WakaTime Stats
 
