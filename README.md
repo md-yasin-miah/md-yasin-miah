@@ -154,10 +154,10 @@ Check out some of my favorite projects:
 
 ## ✨ Connect With Me
 
-- 🌐 Portfolio: [Your Portfolio Link](#)
-- 💼 LinkedIn: [Your LinkedIn Profile](#)
-- 🐦 Twitter: [Your Twitter Handle](#)
-- 📧 Email: [your-email@example.com](mailto:your-email@example.com)
+- 🌐 Portfolio: [My Portfolio Link](https://md-yasin-miah.web.app/)
+- 💼 LinkedIn: [My LinkedIn Profile](https://www.linkedin.com/in/mdyasinmiah)
+- 🐦 Twitter: [My Twitter Handle](https://x.com/YasinAh11187519)
+- 📧 Email: [mdyasinmiah46@gmail.com](mailto:mdyasinmiah46@gmail.com)
 
 ---
 
