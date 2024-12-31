@@ -127,21 +127,21 @@ Check out some of my favorite projects:
         <img 
           src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWE4cDhuMjg1dTRyd3MxNTgwN2VsOXB4M3k3bGYwNW15amVtajQ0dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SWoSkN6DxTszqIKEqv/giphy.gif" 
           alt="Code GIF" 
-          style="height: 300px;min-width: 250px;"
+          style="height: 300px;width: 300px;object-fit: cover;"
         />
     </td>
     <td>
       <img 
         src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYm5tamdneTlhYm1zMThnemR3ajF3ejU0eTRkaDZkMGpwam41Z2pwdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif" 
         alt="Coder GIF" 
-        style="height: 300px;min-width: 250px;"
+        style="height: 300px;width: 300px;object-fit: cover;"
       />
     </td>
     <td>
         <img 
             src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2lxdmVrMXJucHJvNTN5ZTQ1d2t0YmR2aXh3b2ExazBwOTZtMWtrZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/25Itcrcuwkyq3ohubJ/giphy.gif" 
             alt="Coder GIF" 
-            style="height: 300px;min-width: 250px;"
+            style="height: 300px;width: 300px;object-fit: cover;"
         />
     </td>
   </tr>
