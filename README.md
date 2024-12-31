@@ -18,7 +18,7 @@
   <a href="https://github.com/md-yasin-miah?tab=followers">
     <img 
       alt="followers" 
-      title="Follow me on Github" 
+      title="Follow me on GitHub" 
       src="https://custom-icon-badges.demolab.com/github/followers/md-yasin-miah?color=22c55e&labelColor=15803d&style=for-the-badge&logo=person-add&label=Followers&logoColor=white"
     />
   </a>
@@ -48,7 +48,7 @@ Hi there! I'm **Md Yasin Miah**, a passionate **Frontend Developer** with a knac
 ## 🚀 About Me
  
 - 🔭 Currently working on **B2B MultiVendor AgroTech Software**
-- 🌱 Expanding my skills in **JavaScript, React, Next.js, Tailwind CSS, TypeScript, API integrations and more**
+- 🌱 Expanding my skills in **JavaScript, React, Next.js, Tailwind CSS, TypeScript, API integrations, and more**
 - 🎯 Focused on **building responsive, pixel-perfect UI/UX experiences**
 - ✨ Passionate about **crafting clean, reusable components and intuitive interfaces**
 - ⚡ Fun Fact: I’m also a **design enthusiast who loves experimenting with animations and micro-interactions**
@@ -127,21 +127,21 @@ Check out some of my favorite projects:
         <img 
           src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWE4cDhuMjg1dTRyd3MxNTgwN2VsOXB4M3k3bGYwNW15amVtajQ0dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SWoSkN6DxTszqIKEqv/giphy.gif" 
           alt="Code GIF" 
-          style="width: 100%; height: 100%; object-fit: cover;"
+          style="height: 300px;min-width: 250px;"
         />
     </td>
     <td>
       <img 
         src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYm5tamdneTlhYm1zMThnemR3ajF3ejU0eTRkaDZkMGpwam41Z2pwdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif" 
         alt="Coder GIF" 
-        style="width: 100%; height: 100%; object-fit: cover;"
+        style="height: 300px;min-width: 250px;"
       />
     </td>
     <td>
         <img 
             src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2lxdmVrMXJucHJvNTN5ZTQ1d2t0YmR2aXh3b2ExazBwOTZtMWtrZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/25Itcrcuwkyq3ohubJ/giphy.gif" 
             alt="Coder GIF" 
-            style="width: 100%; height: 100%; object-fit: cover;"
+            style="height: 300px;min-width: 250px;"
         />
     </td>
   </tr>
