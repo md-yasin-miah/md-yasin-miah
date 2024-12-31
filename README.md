@@ -68,17 +68,16 @@ Hi there! I'm **Md Yasin Miah**, a passionate **Frontend Developer** with a knac
 | **Operating System**  | ![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat&logo=windows&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black) |
 ---
 
-<!-- ## 🏗️ My Projects
+## 🏗️ My Projects
 
 Check out some of my favorite projects:
 
-| **Project Name**       | **Description**                                                                                   | **Live Demo**              | **Repo**                 |
-|-------------------------|---------------------------------------------------------------------------------------------------|----------------------------|--------------------------|
-| **Interactive Website** | A beautifully animated, responsive web app built using React and GSAP.                           | [Demo](#)                  | [Repo](#)               |
-| **E-Commerce App**      | Fully functional e-commerce platform built with Next.js and Tailwind CSS.                        | [Demo](#)                  | [Repo](#)               |
-| **Weather App**         | A live weather app featuring real-time API integration and sleek UI.                             | [Demo](#)                  | [Repo](#)               |
+| **Project Name**        | **Description**                                                                                   | **Live Demo**              | 
+|-------------------------|--------------------------------------------------------------------------------------------------|-----------------------------|
+| **Interactive Website** | A beautifully animated, responsive web app built using React and GSAP.                           | [Demo](#)                   |
+| **E-Commerce App**      | Fully functional e-commerce platform built with Next.js and Tailwind CSS.                        | [Demo](#)                   |
+| **Weather App**         | A live weather app featuring real-time API integration and sleek UI.                             | [Demo](#)                   |
 
---- -->
 
 ## 📊 GitHub and WakaTime Stats
 
@@ -125,22 +124,18 @@ Check out some of my favorite projects:
 <table>
   <tr>
     <td>
-      <div style="width: 100%; height: 100%;">
         <img 
           src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWE4cDhuMjg1dTRyd3MxNTgwN2VsOXB4M3k3bGYwNW15amVtajQ0dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SWoSkN6DxTszqIKEqv/giphy.gif" 
           alt="Code GIF" 
           style="width: 100%; height: 100%; object-fit: cover;"
         />
-      </div>
     </td>
     <td>
-      <div style="width: 100%; height: 100%;">
       <img 
         src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYm5tamdneTlhYm1zMThnemR3ajF3ejU0eTRkaDZkMGpwam41Z2pwdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif" 
         alt="Coder GIF" 
         style="width: 100%; height: 100%; object-fit: cover;"
       />
-      </div>
     </td>
     <td>
         <img 
