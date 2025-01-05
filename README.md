@@ -3,7 +3,7 @@
 <div align="center">
   <img 
     width="100%" 
-    src="https://capsule-render.vercel.app/api?type=venom&color=0:E855DE,100:5400ee&height=180&section=header&text=Md%20Yasin%20Miah&fontSize=48&fontColor=fff&animation=fadeIn&fontAlignY=40&desc=Javascript%20|%20Tysescript%20|%20React.js%20|%20Next.js%20|%20Node.js%20|%20API&descAlignY=64&descSize=20"
+    src="https://capsule-render.vercel.app/api?type=venom&color=0:E855DE,100:5400ee&height=180&section=header&text=Md%20Yasin%20Miah&fontSize=48&fontColor=fff&animation=fadeIn&fontAlignY=40&desc=Javascript%20|%20Typescript%20|%20React.js%20|%20Next.js%20|%20Node.js%20|%20API&descAlignY=64&descSize=20"
   />
 </div>
 
