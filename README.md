@@ -74,7 +74,7 @@ Check out some of my favorite projects developed for different companies:
 
 | **Project Name**        | **Description**                                                                                   | **Live Demo**  | 
 |-------------------------|--------------------------------------------------------------------------------------------------|-----------------------------|
-| **B2B MultiVendor AgroTech Software** | Transaction Management, Inventory Management, Order Management, Payment Gateway Integration, and more. | [Demo](https://sclient.fashol.com/login?username=admin&password=password)|
+| **B2B MultiVendor AgriTech Software** | Transaction Management, Inventory Management, Order Management, Payment Gateway Integration, and more. | [Demo](https://sclient.fashol.com/login?username=admin&password=password)|
 | **Company Portfolio** | Beautiful, responsive, and dynamic portfolio built with React.js, Tailwind CSS, and pocketbase. | [Demo](https://fashol.com/) |
 | **HRMS Portal Portfolio** | Fully functional dynamic HRMS portal portfolio built with Next.js and Tailwind CSS. | [Demo](https://growth.techforing.com/) |
 | **Company Portfolio** | Fully functional, responsive dynamic portfolio built with Next.js, Tailwind CSS, Redux, and REST API. | [Demo](https://main.techforing.com/) |
