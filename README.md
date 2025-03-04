@@ -47,7 +47,7 @@ Hi there! I'm **Md Yasin Miah**, a passionate **Frontend Developer** with a knac
 
 ## 🚀 About Me
  
-- 🔭 Currently working on **B2B MultiVendor AgroTech Software**
+- 🔭 Currently working on **B2B MultiVendor AgriTech Software**
 - 🌱 Expanding my skills in **JavaScript, React, Next.js, Tailwind CSS, TypeScript, API integrations, and more**
 - 🎯 Focused on **building responsive, pixel-perfect UI/UX experiences**
 - ✨ Passionate about **crafting clean, reusable components and intuitive interfaces**
