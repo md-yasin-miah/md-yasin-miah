@@ -41,15 +41,15 @@
   />
 </div>
 
-Hi there! I'm **Md Yasin Miah**, a passionate **Frontend Developer** with a knack for crafting **interactive, user-friendly, and pixel-perfect web interfaces**. Let's build something amazing together! 🚀
+Hi there! I'm **Md Yasin Miah**, a passionate **MERN Stack, Full Stack Developer** with a love for building **scalable, efficient, and user-friendly web applications from front to back**. Let’s bring your ideas to life with clean code and powerful tech! 🚀
 
 ---
 
 ## 🚀 About Me
  
 - 🔭 Currently working on **B2B MultiVendor AgriTech Software**
-- 🌱 Expanding my skills in **JavaScript, React, Next.js, Tailwind CSS, TypeScript, API integrations, and more**
-- 🎯 Focused on **building responsive, pixel-perfect UI/UX experiences**
+- 🌱 Expanding my skills in **JavaScript, Node.js, Express.js, React.js, Next.js, MongoDB, Tailwind CSS, TypeScript, API integrations, and more**
+- 🎯 Focused on **building scalable, efficient, responsive, pixel-perfect UI/UX experiences**
 - ✨ Passionate about **crafting clean, reusable components and intuitive interfaces**
 - ⚡ Fun Fact: I’m also a **design enthusiast who loves experimenting with animations and micro-interactions**
 ---
