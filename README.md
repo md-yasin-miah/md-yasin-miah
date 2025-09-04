@@ -47,7 +47,7 @@ Hi there! I'm **Md Yasin Miah**, a passionate **MERN Stack, Full Stack Developer
 
 ## 🚀 About Me
  
-- 🔭 Currently working on **B2B MultiVendor AgriTech Software**
+- 🔭 Currently working on **B2B & B2A MultiVendor AgriTech Software** and **B2C ERP Management System**
 - 🌱 Expanding my skills in **JavaScript, Node.js, Express.js, React.js, Next.js, MongoDB, Tailwind CSS, TypeScript, API integrations, and more**
 - 🎯 Focused on **building scalable, efficient, responsive, pixel-perfect UI/UX experiences**
 - ✨ Passionate about **crafting clean, reusable components and intuitive interfaces**
