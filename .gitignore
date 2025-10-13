@@ -1,2 +1,6 @@
 
 .codegpt
+
+node_modules
+dist
+.env
