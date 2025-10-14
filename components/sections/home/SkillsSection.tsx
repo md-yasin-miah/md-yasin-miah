@@ -4,48 +4,8 @@ import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
 import { skills } from '../../../data/skills';
-import {
-  Code,
-  Server,
-  Wrench,
-  FileText,
-  Palette,
-  Code2,
-  Type,
-  Zap,
-  Layers,
-  Sparkles,
-  Database,
-  Globe,
-  GitBranch,
-  Github,
-  Monitor,
-  Chrome,
-  Package
-} from 'lucide-react';
-
-const skillIcons: { [key: string]: React.ComponentType<{ className?: string }> } = {
-  html: FileText,
-  css: Palette,
-  javascript: Code2,
-  typescript: Type,
-  react: Zap,
-  nextjs: Layers,
-  tailwind: Sparkles,
-  redux: Database,
-  mui: Globe,
-  bootstrap: Layers,
-  nodejs: Server,
-  express: Server,
-  mongodb: Database,
-  firebase: Database,
-  api: Code,
-  git: GitBranch,
-  github: Github,
-  vscode: Monitor,
-  chrome: Chrome,
-  npm: Package,
-};
+import { Code, Server, Wrench } from 'lucide-react';
+import Image from 'next/image';
 
 const categoryIcons = {
   frontend: Code,
@@ -147,8 +107,6 @@ export default function SkillsSection() {
                   {/* Skills Grid */}
                   <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
                     {categorySkills.map((skill, skillIndex) => {
-                      const IconComponent = skillIcons[skill.icon] || Code;
-
                       return (
                         <motion.div
                           key={skill.name}
@@ -164,10 +122,16 @@ export default function SkillsSection() {
                         >
                           <div className="text-center">
                             <motion.div
-                              className={`w-12 h-12 mx-auto mb-3 rounded-lg bg-${color}-50 dark:bg-${color}-900/20 flex items-center justify-center group-hover:bg-${color}-100 dark:group-hover:bg-${color}-900/30 transition-colors duration-300`}
+                              className="mx-auto mb-3 flex items-center justify-center"
                               whileHover={{ rotate: 10 }}
                             >
-                              <IconComponent className={`w-6 h-6 text-${color}-600 dark:text-${color}-400`} />
+                              <Image
+                                src={`https://skills.syvixor.com/api/icons?perline=${skill.perLine}&i=${skill.icon}`}
+                                alt={skill.name}
+                                width={56 * skill.perLine}
+                                height={56}
+                                unoptimized
+                              />
                             </motion.div>
 
                             <h4 className="font-semibold text-gray-900 dark:text-white text-sm mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300">
