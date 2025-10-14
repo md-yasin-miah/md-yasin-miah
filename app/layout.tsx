@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
+import Navigation from "@/components/shared/Navigation";
+import ScrollToTop from "@/components/shared/ScrollToTop";
+import Footer from "@/components/shared/Footer";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -139,7 +142,14 @@ export default function RootLayout({
         className={`${inter.variable} ${poppins.variable} font-sans antialiased bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300`}
         suppressHydrationWarning
       >
-        {children}
+        <div className="min-h-screen">
+          <Navigation />
+          <ScrollToTop />
+          <main>
+            {children}
+          </main>
+          <Footer />
+        </div>
       </body>
     </html>
   );

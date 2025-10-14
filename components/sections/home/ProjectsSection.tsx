@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
-import { projects } from '../../data/projects';
+import { projects } from '../../../data/projects';
 import { ExternalLink, Github, Star, Eye } from 'lucide-react';
 
 export default function ProjectsSection() {

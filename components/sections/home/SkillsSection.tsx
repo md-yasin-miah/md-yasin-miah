@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
-import { skills } from '../../data/skills';
+import { skills } from '../../../data/skills';
 import {
   Code,
   Server,

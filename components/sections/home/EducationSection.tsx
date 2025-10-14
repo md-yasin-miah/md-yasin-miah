@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
-import { education, certifications } from '../../data/education';
+import { education, certifications } from '../../../data/education';
 import { GraduationCap, Award, Calendar, MapPin, Star } from 'lucide-react';
 
 export default function EducationSection() {

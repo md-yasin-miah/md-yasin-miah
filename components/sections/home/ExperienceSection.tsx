@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
-import { experiences } from '../../data/experience';
+import { experiences } from '../../../data/experience';
 import { Calendar, MapPin, Building2, CheckCircle } from 'lucide-react';
 
 export default function ExperienceSection() {
