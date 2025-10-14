@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
-    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///media/yasin/Workspace/Projects/md-yasin-miah/app/page.tsx"],"sourcesContent":["import React from 'react'\n\nconst page = () => {\n  return (\n\n    <div className=\"min-h-screen flex items-center justify-center bg-gradient-to-br from-pink-100 via-purple-100 to-indigo-100 dark:from-gray-900 dark:via-purple-900 dark:to-violet-900 relative overflow-hidden\">\n      <h1>Under Construction</h1>\n    </div>\n  )\n}\n\nexport default page"],"names":[],"mappings":";;;;;;AAEA,MAAM,OAAO;IACX,qBAEE,8OAAC;QAAI,WAAU;kBACb,cAAA,8OAAC;sBAAG;;;;;;;;;;;AAGV;uCAEe","debugId":null}}]
-}

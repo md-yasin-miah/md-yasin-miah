@@ -1,12 +1,32 @@
-import React from 'react'
+import React from 'react';
+import Navigation from '../components/Navigation';
+import ScrollToTop from '../components/ScrollToTop';
+import HeroSection from '../components/sections/HeroSection';
+import AboutSection from '../components/sections/AboutSection';
+import SkillsSection from '../components/sections/SkillsSection';
+import ExperienceSection from '../components/sections/ExperienceSection';
+import ProjectsSection from '../components/sections/ProjectsSection';
+import EducationSection from '../components/sections/EducationSection';
+import ContactSection from '../components/sections/ContactSection';
+import Footer from '../components/Footer';
 
-const page = () => {
+export default function HomePage() {
   return (
+    <div className="min-h-screen">
+      <Navigation />
+      <ScrollToTop />
 
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-pink-100 via-purple-100 to-indigo-100 dark:from-gray-900 dark:via-purple-900 dark:to-violet-900 relative overflow-hidden">
-      <h1>Under Construction</h1>
+      <main>
+        <HeroSection />
+        <AboutSection />
+        <SkillsSection />
+        <ExperienceSection />
+        <ProjectsSection />
+        <EducationSection />
+        <ContactSection />
+      </main>
+
+      <Footer />
     </div>
-  )
+  );
 }
-
-export default page
