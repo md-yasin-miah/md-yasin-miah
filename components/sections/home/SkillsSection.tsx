@@ -14,9 +14,42 @@ const categoryIcons = {
 };
 
 const categoryColors = {
-  frontend: 'blue',
-  backend: 'green',
-  tools: 'purple',
+  frontend: {
+    bg100: 'bg-blue-100',
+    bg900: 'dark:bg-blue-900/20',
+    text600: 'text-blue-600',
+    text400: 'dark:text-blue-400',
+    border300: 'hover:border-blue-300',
+    border600: 'dark:hover:border-blue-600',
+    bg50: 'bg-blue-50',
+    bg100Hover: 'group-hover:bg-blue-100',
+    bg900Hover: 'dark:group-hover:bg-blue-900/30',
+    dot: 'bg-blue-500',
+  },
+  backend: {
+    bg100: 'bg-green-100',
+    bg900: 'dark:bg-green-900/20',
+    text600: 'text-green-600',
+    text400: 'dark:text-green-400',
+    border300: 'hover:border-green-300',
+    border600: 'dark:hover:border-green-600',
+    bg50: 'bg-green-50',
+    bg100Hover: 'group-hover:bg-green-100',
+    bg900Hover: 'dark:group-hover:bg-green-900/30',
+    dot: 'bg-green-500',
+  },
+  tools: {
+    bg100: 'bg-purple-100',
+    bg900: 'dark:bg-purple-900/20',
+    text600: 'text-purple-600',
+    text400: 'dark:text-purple-400',
+    border300: 'hover:border-purple-300',
+    border600: 'dark:hover:border-purple-600',
+    bg50: 'bg-purple-50',
+    bg100Hover: 'group-hover:bg-purple-100',
+    bg900Hover: 'dark:group-hover:bg-purple-900/30',
+    dot: 'bg-purple-500',
+  },
 };
 
 export default function SkillsSection() {
@@ -81,7 +114,7 @@ export default function SkillsSection() {
           <div className="space-y-16">
             {Object.entries(groupedSkills).map(([category, categorySkills], categoryIndex) => {
               const CategoryIcon = categoryIcons[category as keyof typeof categoryIcons];
-              const color = categoryColors[category as keyof typeof categoryColors];
+              const colors = categoryColors[category as keyof typeof categoryColors];
 
               return (
                 <motion.div
@@ -93,11 +126,11 @@ export default function SkillsSection() {
                   {/* Category Header */}
                   <div className="text-center">
                     <motion.div
-                      className={`inline-flex items-center justify-center w-16 h-16 rounded-full bg-${color}-100 dark:bg-${color}-900/20 mb-4`}
+                      className={`inline-flex items-center justify-center w-16 h-16 rounded-full ${colors.bg100} ${colors.bg900} mb-4`}
                       whileHover={{ scale: 1.1, rotate: 5 }}
                       transition={{ duration: 0.3 }}
                     >
-                      <CategoryIcon className={`w-8 h-8 text-${color}-600 dark:text-${color}-400`} />
+                      <CategoryIcon className={`w-8 h-8 ${colors.text600} ${colors.text400}`} />
                     </motion.div>
                     <h3 className="text-2xl font-bold text-gray-900 dark:text-white capitalize">
                       {category} Skills
@@ -110,7 +143,7 @@ export default function SkillsSection() {
                       return (
                         <motion.div
                           key={skill.name}
-                          className={`bg-white dark:bg-gray-900 p-6 rounded-xl border border-gray-200 dark:border-gray-700 hover:border-${color}-300 dark:hover:border-${color}-600 transition-all duration-300 group cursor-pointer`}
+                          className={`bg-white dark:bg-gray-900 p-6 rounded-xl border border-gray-200 dark:border-gray-700 ${colors.border300} ${colors.border600} transition-all duration-300 group cursor-pointer`}
                           variants={skillVariants}
                           whileHover={{
                             scale: 1.05,
@@ -144,7 +177,7 @@ export default function SkillsSection() {
                                 <div
                                   key={level}
                                   className={`w-2 h-2 rounded-full ${level <= skill.level
-                                    ? `bg-${color}-500`
+                                    ? colors.dot
                                     : 'bg-gray-200 dark:bg-gray-700'
                                     }`}
                                 />
