@@ -153,9 +153,9 @@ Check out some of my favorite projects developed for different companies:
 
 - 💼 LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/mdyasinmiah)
 - 📧 Email: [mdyasinmiah46@gmail.com](mailto:mdyasinmiah46@gmail.com)
+- 🌐 Portfolio: [mdyasinmiah.me](https://www.mdyasinmiah.me)
 - 🌐 Fiverr: [Fiverr Profile](https://www.fiverr.com/yasin440)
 - 🌐 Upwork: [Upwork Profile](https://www.upwork.com/freelancers/~01a3821986b88a9bab)
-- 🌐 Portfolio: [Portfolio Link](https://md-yasin-miah.web.app/)
 - 🐦 Twitter: [Twitter Handle](https://x.com/YasinAh11187519)
 - 📄 Dev.to: [Dev.to Profile](https://dev.to/mdyasinmiah)
 
