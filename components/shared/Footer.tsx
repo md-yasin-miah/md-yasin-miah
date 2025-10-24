@@ -1,31 +1,11 @@
 'use client';
 
+import { SocialLinks } from '@/data/socialLink';
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Mail, Heart } from 'lucide-react';
+import { Mail, Heart } from 'lucide-react';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
-
-  const socialLinks = [
-    {
-      icon: Github,
-      href: 'https://github.com/md-yasin-miah',
-      label: 'GitHub',
-      color: 'hover:text-gray-900 dark:hover:text-white'
-    },
-    {
-      icon: Linkedin,
-      href: 'https://linkedin.com/in/mdyasinmiah',
-      label: 'LinkedIn',
-      color: 'hover:text-blue-600 dark:hover:text-blue-400'
-    },
-    {
-      icon: Mail,
-      href: 'mailto:mdyasinmiah46@email.com',
-      label: 'Email',
-      color: 'hover:text-red-600 dark:hover:text-red-400'
-    }
-  ];
 
   const quickLinks = [
     { name: 'About', href: '#about' },
@@ -56,14 +36,14 @@ export default function Footer() {
             <div className="space-y-4">
               <h3 className="text-2xl font-bold">Md Yasin Miah</h3>
               <p className="text-gray-400 leading-relaxed">
-                Frontend Engineer passionate about creating exceptional user experiences
+                Full-Stack Engineer passionate about creating exceptional user experiences
                 with modern web technologies.
               </p>
               <div className="flex space-x-4">
-                {socialLinks.map((social, index) => (
+                {SocialLinks.map((social, index) => (
                   <motion.a
-                    key={social.label}
-                    href={social.href}
+                    key={index}
+                    href={social.url}
                     target="_blank"
                     rel="noopener noreferrer"
                     className={`w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center text-gray-400 ${social.color} transition-all duration-300 group`}

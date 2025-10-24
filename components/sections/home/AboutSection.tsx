@@ -138,7 +138,7 @@ export default function AboutSection() {
                 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white"
                 variants={itemVariants}
               >
-                Passionate Frontend Developer
+                Passionate Full-Stack Developer
               </motion.h3>
 
               <motion.div
@@ -146,13 +146,13 @@ export default function AboutSection() {
                 variants={itemVariants}
               >
                 <p>
-                  I&apos;m a dedicated Frontend Engineer with over 3 years of experience in building
+                  I&apos;m a dedicated Full-Stack Engineer with over 3 years of experience in building
                   modern, responsive web applications. My passion lies in creating exceptional
                   user experiences through clean, efficient code and innovative design solutions.
                 </p>
 
                 <p>
-                  I specialize in React, Next.js, and TypeScript, with a strong focus on
+                  I specialize in React, Next.js, TypeScript, Node and Express.js with a strong focus on
                   performance optimization and accessibility. I believe in writing maintainable
                   code and following best practices to deliver scalable solutions.
                 </p>
@@ -173,6 +173,8 @@ export default function AboutSection() {
                   {[
                     "React & Next.js Development",
                     "TypeScript & JavaScript",
+                    "Backend with Node & Express.js",
+                    "RESTful APIs & GraphQL",
                     "Responsive Web Design",
                     "Performance Optimization",
                     "UI/UX Implementation",

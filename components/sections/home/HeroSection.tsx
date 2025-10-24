@@ -1,7 +1,8 @@
 'use client';
 
+import { SocialLinks } from '@/data/socialLink';
 import { motion } from 'framer-motion';
-import { Download, Eye, Github, Linkedin, Mail } from 'lucide-react';
+import { Download, Eye } from 'lucide-react';
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
 
@@ -88,14 +89,14 @@ export default function HeroSection() {
             className="text-xl sm:text-2xl lg:text-3xl font-medium text-blue-600 dark:text-blue-400 mb-6"
             variants={itemVariants}
           >
-            Frontend Engineer (React / Next.js)
+            Full-Stack Engineer (MERN / Next.js)
           </motion.h2>
 
           <motion.p
             className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed"
             variants={itemVariants}
           >
-            Crafting high-performance, user-friendly web apps with modern frontend technologies.
+            Crafting high-performance, user-friendly web apps with modern frontend and backend technologies.
           </motion.p>
 
           {/* Action Buttons */}
@@ -131,36 +132,21 @@ export default function HeroSection() {
             className="flex justify-center space-x-6"
             variants={itemVariants}
           >
-            <motion.a
-              href="https://github.com/md-yasin-miah"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-3 rounded-full bg-white/10 backdrop-blur-md border border-white/20 hover:bg-white/20 transition-all duration-300 group"
-              whileHover={{ scale: 1.1, rotate: 5 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              <Github className="w-6 h-6 text-gray-700 dark:text-gray-300 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300" />
-            </motion.a>
-
-            <motion.a
-              href="https://linkedin.com/in/mdyasinmiah"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-3 rounded-full bg-white/10 backdrop-blur-md border border-white/20 hover:bg-white/20 transition-all duration-300 group"
-              whileHover={{ scale: 1.1, rotate: -5 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              <Linkedin className="w-6 h-6 text-gray-700 dark:text-gray-300 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300" />
-            </motion.a>
-
-            <motion.a
-              href="mailto:mdyasinmiah46@email.com"
-              className="p-3 rounded-full bg-white/10 backdrop-blur-md border border-white/20 hover:bg-white/20 transition-all duration-300 group"
-              whileHover={{ scale: 1.1, rotate: 5 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              <Mail className="w-6 h-6 text-gray-700 dark:text-gray-300 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300" />
-            </motion.a>
+            {
+              SocialLinks.map((social, index) => (
+                <motion.a
+                  key={index}
+                  href={social.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-3 rounded-full bg-white/10 backdrop-blur-md border border-white/20 hover:bg-white/20 transition-all duration-300 group"
+                  whileHover={{ scale: 1.1, rotate: 5 }}
+                  whileTap={{ scale: 0.95 }}
+                >
+                  <social.icon className="w-6 h-6 text-gray-700 dark:text-gray-300 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300" />
+                </motion.a>
+              ))
+            }
           </motion.div>
         </motion.div>
       </div>

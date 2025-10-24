@@ -22,9 +22,11 @@ export const skills: Skill[] = [
   // Backend Skills
   { name: "Node.js", level: 4, category: "backend", icon: "nodejs", perLine: 1 },
   { name: "Express.js", level: 4, category: "backend", icon: "express", perLine: 1 },
-  { name: "MongoDB", level: 3, category: "backend", icon: "mongodb", perLine: 1 },
-  { name: "Firebase", level: 3, category: "backend", icon: "firebase", perLine: 1 },
+  { name: "MongoDB", level: 4, category: "backend", icon: "mongodb", perLine: 1 },
+  { name: "SQL", level: 2, category: "backend", icon: "mysql,postgresql", perLine: 2 },
+  { name: "Firebase", level: 4, category: "backend", icon: "firebase", perLine: 1 },
   { name: "REST API", level: 4, category: "backend", icon: "postman", perLine: 1 },
+  { name: "GraphQL", level: 3, category: "backend", icon: "graphql", perLine: 1 },
 
   // Tools
   { name: "Git", level: 4, category: "tools", icon: "git", perLine: 1 },

@@ -7,6 +7,10 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'skills.syvixor.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'simpleicons.org',
+      },
     ],
   },
 };

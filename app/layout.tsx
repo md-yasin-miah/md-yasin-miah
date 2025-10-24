@@ -19,10 +19,12 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Md Yasin Miah - Frontend Engineer | React/Next.js Developer",
-  description: "Crafting high-performance, user-friendly web apps with modern frontend technologies. React/Next.js Developer based in Dhaka, Bangladesh. 3+ years experience in React, TypeScript, and modern web development.",
+  title: "Md Yasin Miah - Full-Stack Engineer | MERN | React/Next.js Developer",
+  description: "Crafting high-performance, user-friendly web apps with modern frontend and backend technologies. MERN | React/Next.js Developer based in Dhaka, Bangladesh. 3+ years experience in React, Next, TypeScript, and modern web development.",
   keywords: [
     "Frontend Developer",
+    "Full-Stack Developer",
+    "MERN Developer",
     "React Developer",
     "Next.js Developer",
     "TypeScript Developer",
@@ -37,8 +39,8 @@ export const metadata: Metadata = {
   authors: [{ name: "Md Yasin Miah" }],
   creator: "Md Yasin Miah",
   openGraph: {
-    title: "Md Yasin Miah - Frontend Engineer",
-    description: "Crafting high-performance, user-friendly web apps with modern frontend technologies.",
+    title: "Md Yasin Miah - Full-Stack Engineer",
+    description: "Crafting high-performance, user-friendly web apps with modern frontend and backend technologies.",
     url: "https://mdyasinmiah.me",
     siteName: "Md Yasin Miah Portfolio",
     images: [
@@ -46,7 +48,7 @@ export const metadata: Metadata = {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Md Yasin Miah - Frontend Engineer",
+        alt: "Md Yasin Miah - Full-Stack Engineer",
       },
     ],
     locale: "en_US",
@@ -54,8 +56,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Md Yasin Miah - Frontend Engineer",
-    description: "Crafting high-performance, user-friendly web apps with modern frontend technologies.",
+    title: "Md Yasin Miah - Full-Stack Engineer",
+    description: "Crafting high-performance, user-friendly web apps with modern frontend and backend technologies.",
     images: ["/og-image.jpg"],
   },
   robots: {
@@ -105,8 +107,8 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Person",
               "name": "Md Yasin Miah",
-              "jobTitle": "Frontend Engineer",
-              "description": "Crafting high-performance, user-friendly web apps with modern frontend technologies",
+              "jobTitle": "Full-Stack Engineer",
+              "description": "Crafting high-performance, user-friendly web apps with modern frontend and backend technologies",
               "url": "https://mdyasinmiah.me",
               "sameAs": [
                 "https://github.com/md-yasin-miah",
@@ -126,13 +128,26 @@ export default function RootLayout({
                 "CSS3",
                 "Tailwind CSS",
                 "Node.js",
+                "Express.js",
+                "RESTful APIs",
+                "GraphQL",
+                "GitHub",
+                "Vercel",
+                "Netlify",
+                "Figma",
+                "Agile Methodologies",
+                "Responsive Web Design",
+                "Web Performance Optimization",
+                "Cross-Browser Compatibility",
+                "SEO Best Practices",
                 "MongoDB",
-                "Git"
+                "Git",
+                "MERN Stack Development"
               ],
               "hasOccupation": {
                 "@type": "Occupation",
-                "name": "Frontend Developer",
-                "description": "Developing modern web applications with React and Next.js"
+                "name": "Full-Stack Developer",
+                "description": "Developing modern web applications with React, Next.js, Node and Express.js"
               }
             })
           }}
