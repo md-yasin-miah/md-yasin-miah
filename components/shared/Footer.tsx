@@ -1,5 +1,6 @@
 'use client';
 
+import { EMAIL } from '@/data/constant';
 import { SocialLinks } from '@/data/socialLink';
 import { motion } from 'framer-motion';
 import { Mail, Heart } from 'lucide-react';
@@ -87,10 +88,10 @@ export default function Footer() {
                 <div className="flex items-center space-x-3">
                   <Mail className="w-5 h-5 text-blue-400" />
                   <a
-                    href="mailto:mdyasinmiah46@email.com"
+                    href={`mailto:${EMAIL}`}
                     className="text-gray-400 hover:text-white transition-colors duration-300"
                   >
-                    mdyasinmiah46@email.com
+                    {EMAIL}
                   </a>
                 </div>
                 <div className="flex items-center space-x-3">
@@ -126,7 +127,7 @@ export default function Footer() {
               <div className="flex items-center space-x-6 text-sm text-gray-400">
                 <span>Built with Next.js & Tailwind CSS</span>
                 <div className="w-1 h-1 bg-gray-600 rounded-full"></div>
-                <span>Powered by Framer Motion</span>
+                <span>Developed by Md Yasin Miah</span>
               </div>
             </div>
           </div>

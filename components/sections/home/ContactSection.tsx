@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef, useState } from 'react';
 import { Mail, Phone, MapPin, Github, Linkedin, Send, CheckCircle } from 'lucide-react';
+import { EMAIL, LOCATION, PHONE } from '@/data/constant';
 
 export default function ContactSection() {
   const ref = useRef(null);
@@ -84,20 +85,20 @@ export default function ContactSection() {
     {
       icon: Mail,
       label: 'Email',
-      value: 'mdyasinmiah46@email.com',
-      href: 'mailto:mdyasinmiah46@email.com'
+      value: EMAIL,
+      href: `mailto:${EMAIL}`
     },
     {
       icon: Phone,
-      label: 'Phone',
-      value: '+8801797365053',
-      href: 'tel:+8801797365053'
+      label: 'Phone | WhatsApp',
+      value: PHONE,
+      href: `tel:${PHONE}`
     },
     {
       icon: MapPin,
       label: 'Location',
-      value: 'Dhaka, Bangladesh',
-      href: '#'
+      value: LOCATION,
+      href: `https://maps.app.goo.gl/BQxWZ6XKkz56bWY26`
     }
   ];
 
@@ -117,7 +118,7 @@ export default function ContactSection() {
     {
       icon: Mail,
       label: 'Email',
-      href: 'mailto:mdyasinmiah46@email.com',
+      href: `mailto:${EMAIL}`,
       color: 'hover:text-red-600 dark:hover:text-red-400'
     }
   ];

@@ -4,6 +4,7 @@ import { FaUpwork } from 'react-icons/fa6';
 import { LuGithub } from 'react-icons/lu';
 import { MdMailOutline } from 'react-icons/md';
 import { TbBrandFiverr } from 'react-icons/tb';
+import { EMAIL } from './constant';
 export const SocialLinks: Array<{ name: string; url: string; icon: React.ElementType, color?: string }> = [
   {
     name: "GitHub",
@@ -19,7 +20,7 @@ export const SocialLinks: Array<{ name: string; url: string; icon: React.Element
   },
   {
     name: "Email",
-    url: "mailto:mdyasinmiah46@email.com",
+    url: `mailto:${EMAIL}`,
     icon: MdMailOutline,
     color: 'hover:text-red-600 dark:hover:text-red-400'
   },

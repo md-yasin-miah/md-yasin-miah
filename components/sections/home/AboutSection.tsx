@@ -5,6 +5,7 @@ import { useInView } from 'framer-motion';
 import { useRef } from 'react';
 import { MapPin, Calendar, Briefcase, CheckCircle } from 'lucide-react';
 import Image from 'next/image';
+import moment from 'moment';
 
 export default function AboutSection() {
   const ref = useRef(null);
@@ -57,7 +58,7 @@ export default function AboutSection() {
             {/* Left Column - Profile Image and Info Cards */}
             <motion.div className="space-y-8" variants={itemVariants}>
               {/* Profile Image */}
-              <div className="flex justify-center lg:justify-start">
+              <div className="flex justify-center">
                 <motion.div
                   className="relative"
                   whileHover={{ scale: 1.05 }}
@@ -67,8 +68,8 @@ export default function AboutSection() {
                     <Image
                       src="/assets/images/md-yasin-miah.png"
                       alt="Profile"
-                      width={256} height={256}
-                      className="h-72 w-72 rounded-2xl bg-gradient-to-br from-blue-400 to-purple-600 p-1 shadow-2xl object-cover object-bottom"
+                      width={300} height={300}
+                      className="md:h-96 md:w-96 h-72 w-72 rounded-2xl bg-linear-to-br from-blue-400 to-purple-600 p-1 shadow-2xl object-cover object-bottom"
                     />
                   </div>
                   <div className="absolute -top-4 -right-4 w-8 h-8 bg-green-400 rounded-full flex items-center justify-center">
@@ -92,7 +93,8 @@ export default function AboutSection() {
                     Experience
                   </h3>
                   <p className="text-blue-700 dark:text-blue-300 text-center font-medium">
-                    3+ Years
+                    {/* from Mar 2022 to present show as 3.4 years with moment js*/}
+                    {moment().diff(moment('2022-03-01'), 'years', true).toFixed(1)} Years
                   </p>
                 </motion.div>
 
@@ -146,7 +148,7 @@ export default function AboutSection() {
                 variants={itemVariants}
               >
                 <p>
-                  I&apos;m a dedicated Full-Stack Engineer with over 3 years of experience in building
+                  I&apos;m a dedicated Full-Stack Engineer with {moment().diff(moment('2022-03-01'), 'years', true).toFixed(1)} years of experience in building
                   modern, responsive web applications. My passion lies in creating exceptional
                   user experiences through clean, efficient code and innovative design solutions.
                 </p>
