@@ -188,7 +188,7 @@ export default function AboutSection() {
                       variants={itemVariants}
                       transition={{ delay: index * 0.1 }}
                     >
-                      <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0" />
+                      <CheckCircle className="w-5 h-5 text-green-500 shrink-0" />
                       <span className="text-gray-700 dark:text-gray-300">{skill}</span>
                     </motion.div>
                   ))}
